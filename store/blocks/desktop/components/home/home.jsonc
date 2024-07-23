@@ -1,19 +1,39 @@
 {
-  "flex-layout.row#home__section-1": {
-    "title": "DESKTOP Row with text",
-    "children": [
-      "rich-text#section-1"
-    ]
-  },
-
-  "rich-text#section-1": {
-    "title": "Text Favorites at desktop",
-    "props": {
-      "blockClass": "",
-      "text": "Favoritos en DESKTOP",
-      "font": "t-heading-2",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER"
-    }
+  "flex-layout.row#desktop_home-section": {
+          "title": "phone row with text",
+          "children": [
+              "list-context.image-list#desktopmain-hero"
+          ],
+          "props": {
+            "blockClass": "hero-desktop"
+          }
+      },
+  
+      "list-context.image-list#desktopmain-hero": {
+          "props": {
+                "height": 422,
+              "images": [
+                  {
+                      "image": "/arquivos/hero-desktop.png",
+                      "description": "Main hero image",
+                      "link": {"url": "#"}
+                  }
+              ]
+          },
+  
+          "children": [
+              "slider-layout#desktopmain-hero-slider"
+          ]
+      },
+  
+      "slider-layout#desktopmain-hero-slider": {
+          "props": {
+            "blockClass": "hero-desktop-img",
+              "itemsPerPage": {
+                  "desktop": 5,
+                  "tablet": 3,
+                  "phone": 1
+              }
+          }
+      }
   }
-}
