@@ -37,7 +37,15 @@
 .wrapper--text-amazing {
     font-size: 16px;
     font-weight: 500;
-    padding: 0px 102px ;
+    padding-left: 72px;
+    padding-top: 40px;
+    padding-bottom: 16px;
+    padding-right: 1043px ;
     display: inline-flex;
     color: #1D2734;
+}
+
+.paragraph--text-amazing {
+    width: 165px;
+    height: 17px;
 }

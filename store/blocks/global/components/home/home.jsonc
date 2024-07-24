@@ -1,16 +1,16 @@
 {
-  "flex-layout.row#home__section--global": {
-    "title": "Global Row with text example",
-    "children": [
-      "rich-text#home__section--global"
-    ],
-    "props": {
-      "marginTop": 10,
-      "border": ["all"],
-      "borderWidth": 1,
-      "borderColor": "success"
-    }
-  },
+  // "flex-layout.row#home__section--global": {
+  //   "title": "Global Row with text example",
+  //   "children": [
+  //     "rich-text#home__section--global"
+  //   ],
+  //   "props": {
+  //     "marginTop": 10,
+  //     "border": ["all"],
+  //     "borderWidth": 1,
+  //     "borderColor": "success"
+  //   }
+  // },
 
   "rich-text#home__section--global": {
     "title": "Text Favorites",

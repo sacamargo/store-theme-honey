@@ -1,5 +1,8 @@
-.caretIcon--slider-info-card {
-    margin: -8px;
+.caretIcon {
+    margin: -7.8px;
+    max-width: none;
+    width: 20px;
+    height: 14px;
 }
 
 .paginationDotsContainer{
@@ -39,6 +42,13 @@
     font-size: 0;
     background-color: #1d2734;
     position: absolute;
+}
+
+.slideChildrenContainer--product-list {
+    padding-right: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 

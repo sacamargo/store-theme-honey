@@ -1,79 +1,70 @@
 {
-  "header": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header.full": {
-    "blocks": ["header-layout.desktop", "header-layout.mobile"]
-  },
-  "header-layout.desktop": {
-    "children": [
-      "sticky-layout#desktop"
-    ]
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": "sticky-header"
+    "header-layout.desktop": {
+      "children": [
+        "header-row#1-desktop",
+        "header-row#2-desktop",
+        "header-row#3-desktop",
+        "header-row#4-desktop"
+      ]
     },
-    "children": ["flex-layout.row#desktop"]
-  },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true
-    },
-    "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
-    ]
-  },
-  "flex-layout.col#spacer": {
-    "props": {
-      "width": "grow"
-    }
-  },
-  "flex-layout.col#logo-desktop": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "logo": {
-    "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-      "width": "40"
-    }
-  },
-  "header-layout.mobile": {
-    "children": ["sticky-layout#mobile"]
-  },
-  "sticky-layout#mobile": {
-    "children": ["flex-layout.row#mobile"]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "drawer": {
-    "children": []
+
+    "header-row#1-desktop": {
+  "children": [
+    "telemarketing"
+  ],
+  "props": {
+    "fullWidth": true
   }
+},
+
+"header-row#2-desktop": {
+  "children": [
+    "header-border",
+    "notification.bar#home"
+  ],
+  "props": {
+    "fullWidth": "true"
+  }
+},
+"notification.bar#home": {
+  "props": {
+    "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+  }
+},
+
+"header-row#4-desktop": {
+  "props": {
+    "blockClass": "main-header",
+    "horizontalAlign": "center",
+    "verticalAlign": "center",
+    "preventHorizontalStretch": true,
+    "preventVerticalStretch": true,
+    "fullWidth": true
+  },
+  "children": ["header-force-center"]
+},  
+"header-force-center": {
+  "children":[
+    "logo#desktop"
+  ]
+},
+"logo#desktop": {
+  "props": {
+    "title": "Logo",
+    "href": "/",
+    "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+    "width": "180"
+  }
+},
+"header-row#3-desktop": {
+  "children": [
+
+    "header-spacer"
+  ],
+  "props": {
+    "blockClass": "menu-link",
+    "inverted": "true"
+  }
+}
+
 }

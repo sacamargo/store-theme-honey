@@ -1,4 +1,14 @@
 {
+    "flex-layout.row#text-sliders": {
+        "props": {
+            "blockClass": "text-sliders"
+        },
+        "title": "text amazing",
+        "children": [
+            "rich-text#text__second-slider"
+        ]
+    },
+
      "rich-text#text__second-slider": {
         "props": {
             "text": "An amazing product.",
