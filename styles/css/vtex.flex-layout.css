@@ -24,6 +24,7 @@
 .flexCol--info-card {
     background-color: #fff;
     max-width: 324px;
+    height: 336.46px;
     border-radius: 12px;
     align-items: center;
 }
@@ -31,4 +32,14 @@
 .flexColChild--img-trophy-info-card {
     margin: 13.82px;
 }
+
+.flexColChild--info-card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.flexRow--product-list {
+    margin-top: 73.11px;
+} 
 
