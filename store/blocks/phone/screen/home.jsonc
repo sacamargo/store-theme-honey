@@ -2,9 +2,13 @@
     "responsive-layout.phone#home__section--1": {
         "title": "home section one phone",
         "children": [
-            "flex-layout.row#phone_home-section",
-            "rich-text#text__second-slider",
+            "flex-layout.row#text-sliders",
             "flex-layout.row#global__second--slider",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#product-list",
+            "flex-layout.row#text-sliders",
+            "flex-layout.row#global__second--slider",
+            "flex-layout.row#text-sliders",
             "flex-layout.row#product-list"
         ]
     }
