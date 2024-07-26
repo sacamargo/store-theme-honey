@@ -1,0 +1,19 @@
+.menuContainer--menu-home {
+    text-align: center;
+
+}
+
+.styledLinkIcon {
+    display: block;
+    color: rgba(50, 50, 50, 1);
+}
+
+.styledLinkContent {
+    display: block;
+    margin: 0 auto;
+    gap: 4px;
+    border: 0 0 1px 0;
+    font-size: 12px;
+    font-family: "Lexend-Light";
+    color: rgba(29, 39, 52, 1);
+}
