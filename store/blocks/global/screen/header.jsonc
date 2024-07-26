@@ -14,23 +14,9 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "header-row#2-desktop",
-      "header-row#3-desktop",
-      "header-row#4-desktop"
+      "header-row#2-desktop"
     ]
-  },
-  "flex-layout.row#1-desktop": {
-    "children" : [
-      "sticky-layout#mega-menu"
-    ]
-  },
-  "header-row#2-desktop": {
-
-  },
-  "header-row#3-desktop": {
-
-  },
-  "header-row#4-desktop": {
-    
   }
+
+    
 }

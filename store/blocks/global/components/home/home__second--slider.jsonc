@@ -10,15 +10,34 @@
     },
     "slider-layout#second__slider": {
         "props": {
+            "fullWidth": false,
             "title": "global second slider home",
             "blockClass": "slider-info-card",
             "itemsPerPage": {
-                "desktop": 3,
+                "desktop": 4,
                 "tablet": 3,
                 "phone": 1
             }
         },
         "children": [
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",

@@ -29,6 +29,7 @@
   },
   "slider-layout#product-list": {
     "props": {
+      "fullWidth": false,
       "blockClass": "product-list",
       "itemsPerPage": {
         "desktop": 5,
