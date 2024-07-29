@@ -22,7 +22,8 @@
     },
     "flex-layout.col#trigger-mega-menu": {
         "props": {
-            "verticalAlign": "middle"
+            "verticalAlign": "middle",
+            "blockClass": "header-menu"
         },
         "children": [
             "mega-menu-trigger-btn"
@@ -30,7 +31,8 @@
     },
     "mega-menu-trigger-btn": {
         "props": {
-            "Drawer": "drawer"
+            "Drawer": "drawer",
+            "blockClass": "mega-menu"
         }
     }
 }

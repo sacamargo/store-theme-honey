@@ -13,8 +13,7 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
-      "header-row#2-desktop"
+      "sticky-layout#header-desktop"
     ]
   }
 

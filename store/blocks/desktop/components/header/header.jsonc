@@ -1,7 +1,22 @@
 {
-    "flex-layout.row#1-desktop": {
+    "sticky-layout#header-desktop": {
+        "props": {
+            "blockClass": "sticky-header"
+        },
         "children": [
-            "sticky-layout#mega-menu",
+            "flex-layout.row#1-desktop",
+            "flex-layout.row#mega-menu",
+            "header-row#2-desktop"
+        ]
+    },
+    
+    "flex-layout.row#1-desktop": {
+        "props": {
+            "blockClass": "header-row-1",
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#trigger-mega-menu",
             "logo",
             "search-bar",
             "flex-layout.col#header__link--first-col",
@@ -12,7 +27,7 @@
             "minicart.v2",
             "login"
         ]
-    },
+    },   
     "logo": {
         "props": {
             "width": 32,
