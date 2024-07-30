@@ -1,10 +1,32 @@
 .flexRowContent--header-row-1 {
     background-color: rgba(255, 255, 255, 1);
     align-items: center;
-
+    justify-content: center;
 }
 
 .flexRow--header-row-1 {
     background-color: rgba(255, 255, 255, 1);
     height: 56px;
+    padding-top: 8px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 8px;
+}
+
+.flexRowContent--container-header {
+    gap: 13px
+}
+
+.flexRowContent--drawer-logo--container{
+    gap: 8px;
+}
+
+.flexRow--drawer-logo--container {
+    padding-right: 16px;
+}
+.flexRowContent--container-header{
+    padding-left: 58px;
+}
+.flexRow--minicart-login--container {
+    padding-left: 40px;
 }
