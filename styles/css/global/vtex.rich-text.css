@@ -1,3 +1,14 @@
 .paragraph{
     margin: 0px;
 }
+
+.paragraph--free--shiping__text {
+    color: rgba(250, 32, 128, 1);
+    font-size: 14px;
+    font-family: "Lexend-Regular";
+}
+
+.paragraph--free--shiping__text::after {
+    content: url(/arquivos/free__shiping.svg);
+}
+

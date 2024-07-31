@@ -1,0 +1,7 @@
+.flexRowContent--listbtn-pricesaving :global(.vtex-product-price-1-x-savings--btn-saving) {
+    width: 87px;
+}
+
+.flexRow--listbtn-pricesaving {
+    padding-bottom: 12px;
+}
