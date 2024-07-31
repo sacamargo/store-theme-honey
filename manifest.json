@@ -15,6 +15,7 @@
     "vtex.store": "2.x",
     "vtex.store-header": "2.x",
     "vtex.product-summary": "2.x",
+    "vtex.product-price": "1.x",
     "vtex.store-image": "0.x",
     "vtex.store-footer": "2.x",
     "vtex.list-context": "0.x",
