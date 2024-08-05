@@ -10,13 +10,14 @@
     },
     "slider-layout#second__slider": {
         "props": {
+            "showNavigationArrows": "desktopOnly",
             "fullWidth": false,
             "title": "global second slider home",
             "blockClass": "slider-info-card",
             "itemsPerPage": {
                 "desktop": 4,
                 "tablet": 3,
-                "phone": 1
+                "phone": 2
             }
         },
         "children": [

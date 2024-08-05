@@ -27,3 +27,17 @@
     font-size: 14px;
     color: rgba(29, 39, 52, 0.4);
 }
+
+.nameContainer {
+    font-family: "Lexend-Regular";
+    font-size: 14px;
+    color: rgba(29, 39, 52, 0.6);
+    text-align: left;
+}
+
+.productBrand {
+    font-family: "Lexend-Regular";
+    font-size: 14px;
+    color: rgba(29, 39, 52, 0.6);
+    text-align: left;
+}

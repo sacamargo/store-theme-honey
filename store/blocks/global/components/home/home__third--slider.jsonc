@@ -13,7 +13,7 @@
     "children": [
       "flex-layout.row#listbtn--pricesaving",
       "product-summary-image",
-      "product-summary-description",
+      "product-summary-name",
       "product-summary-space",
       "product-list-price",
       "product-selling-price",
@@ -34,7 +34,7 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 3,
-        "phone": 1
+        "phone": 2
       },
       "fullWidth": false
     }
@@ -45,6 +45,7 @@
       "textAlignment": "right"
     }
   },
+
   "product-summary-image": {
     "title": "Image to product summary",
     "props": {
@@ -65,6 +66,7 @@
       "add-to-list-btn"
     ]
   },
+  
   "add-to-cart-button": {
     "props": {
       "isOneClickBuy": false,
@@ -92,5 +94,5 @@
         "text": "Envio gratis ",
         "blockClass": "free--shiping__text"
     }
-}
+  }
 }

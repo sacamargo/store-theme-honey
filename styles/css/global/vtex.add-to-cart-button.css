@@ -1,5 +1,20 @@
 .buttonText--summary-button {
     text-transform: initial;
+    justify-content: center;
+    align-items: center;
     font-family: "Lexend-Regular";
     font-size: 14px;
+    display: flex;
+    color: rgba(29, 39, 52, 1);
 }
+
+.buttonText--summary-button::before {
+    content: url(/arquivos/buy--button--car.svg);
+    width: 20px;
+    height: 20px;
+    padding-right: 13px;
+}
+
+
+
+

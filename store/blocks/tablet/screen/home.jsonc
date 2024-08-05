@@ -2,14 +2,7 @@
     "responsive-layout.tablet#home__section--1": {
         "title": "home section one tablet",
         "children": [
-            "flex-layout.row#text-sliders",
-            "flex-layout.row#global__second--slider",
-            "flex-layout.row#text-sliders",
-            "flex-layout.row#product-list",
-            "flex-layout.row#text-sliders",
-            "flex-layout.row#global__second--slider",
-            "flex-layout.row#text-sliders",
-            "flex-layout.row#product-list"
+
         ]
     }
 }
