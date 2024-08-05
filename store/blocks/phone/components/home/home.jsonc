@@ -1,5 +1,8 @@
 {
     "flex-layout.row#phone_home-section": {
+        "props": {
+            "blockClass": "hero--phone"
+        },
         "title": "phone row with text",
         "children": [
             "list-context.image-list#phonemain-hero"
@@ -25,8 +28,9 @@
         "props": {
             "images": [
                 {
-                    "width": "360",
+                    "maxHeight": 480,
                     "image": "/arquivos/hero-mobile.png",
+
                     "description": "Main hero image",
                     "link": {
                         "url": "#"
@@ -40,6 +44,7 @@
     },
     "slider-layout#phonemain-hero-slider": {
         "props": {
+            "blockClass": "img-hero-phone",
             "itemsPerPage": {
                 "desktop": 5,
                 "tablet": 3,
