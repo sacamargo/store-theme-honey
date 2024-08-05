@@ -1,11 +1,21 @@
 {
-     "rich-text#text__second-slider": {
-        "props": {
-            "text": "An amazing product.",
-            "font": "t-heading-5",
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "blockClass": "text-amazing"
-        }
+  "flex-layout.row#text-sliders": {
+    "props": {
+      "blockClass": "text-sliders"
+    },
+    "title": "text amazing",
+    "children": [
+      "rich-text#text__second-slider"
+    ]
+  },
+
+  "rich-text#text__second-slider": {
+    "props": {
+      "text": "An amazing product.",
+      "font": "t-heading-5",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": "text-amazing"
     }
+  }
 }

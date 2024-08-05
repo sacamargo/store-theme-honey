@@ -1,6 +1,6 @@
 {
   "flex-layout.row#desktop_home-section": {
-          "title": "phone row with text",
+          "title": "desktop row with text",
           "children": [
               "list-context.image-list#desktopmain-hero"
           ],
@@ -10,6 +10,7 @@
       },
   
       "list-context.image-list#desktopmain-hero": {
+        "title": "desktop list image",
           "props": {
                 "height": 422,
               "images": [
@@ -27,6 +28,7 @@
       },
   
       "slider-layout#desktopmain-hero-slider": {
+        "title": "desktop slider hero",
           "props": {
             "blockClass": "hero-desktop-img",
               "itemsPerPage": {
