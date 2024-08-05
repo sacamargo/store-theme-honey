@@ -1,0 +1,9 @@
+.flexRow--hero--phone :global(.vtex-store-components-3-x-container ) {
+    padding: 0;
+}
+
+.flexRow--hero--phone {
+    max-width: none;
+    margin: auto;
+    width: 100%;
+}

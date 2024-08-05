@@ -1,47 +1,68 @@
 {
-    "sticky-layout#header-desktop": {
-        "props": {
-            "blockClass": "sticky-header"
-        },
-        "children": [
-            "flex-layout.row#1-desktop",
-            "flex-layout.row#mega-menu",
-            "header-row#2-desktop"
+    "header": {
+        "blocks": [
+            "header-layout.mobile"
         ]
     },
-    "flex-layout.row#1-desktop": {
-        "props": {
-            "blockClass": "header-row-1",
-            "colSizing": "auto"
-        },
+    "sticky-layout#mobile__menu-sticky--layout": {
         "children": [
-            "flex-layout.row#global__drawer--and--logo",
-            "search-bar",
-            "flex-layout.row#header__link--container",
+            "flex-layout.row#mobile__header--row",
+            "header-row#2-mobile"
+        ]
+    },
+    "drawer#mobile": {
+        "children": [
+            "menu#drawer"
+        ]
+    },
+    "menu#drawer": {
+        "children": [],
+        "props": {
+            "blockClass": "mobile--drawer",
+            "orientation": "vertical"
+        }
+    },
+    "flex-layout.row#mobile__header--row": {
+        "children": [
+            "flex-layout.row#mobile__drawer--logo",
             "flex-layout.row#global__minicart--and--login"
-        ]
-    },
-    "flex-layout.row#global__minicart--and--login": {
-        "children": [
-            "minicart.v2",
-            "login"
         ],
         "props": {
-            "blockClass": "minicart-login--container",
+            "blockClass": "mobile__row--header",
+            "colSizing": "auto",
+            "colGap": 0
+        }
+    },
+    "flex-layout.row#mobile__drawer--logo": {
+        "children": [
+            "drawer#mobile",
+            "logo#mobile"
+        ],
+        "props": {
+            "blockClass": "drawer-logo--container--mobile",
             "colSizing": "auto"
         }
     },
-    "flex-layout.row#global__drawer--and--logo": {
+    "header-layout.mobile": {
         "children": [
-            "flex-layout.col#trigger-mega-menu",
-            "logo"
-        ],
-        "props": {
-            "blockClass": "drawer-logo--container"
-        }
+            "sticky-layout#mobile__menu-sticky--layout"
+        ]
     },
-    "logo": {
+    "header-row#1-mobile": {
         "props": {
+            "blockClass": [
+                "header-1-mobile"
+            ]
+        },
+        "children": [
+            "logo#mobile"
+        ]
+    },
+    "logo#mobile": {
+        "props": {
+            "blockClass": [
+                "logo--mobile"
+            ],
             "width": 32,
             "height": 20,
             "mobileWidth": 32,
@@ -49,18 +70,19 @@
             "url": "/arquivos/itg--logo.svg"
         }
     },
-    "header-row#2-desktop": {
+    "header-row#2-mobile": {
         "props": {
-            "blockClass": "menu-home-2"
+            "blockClass": "menu-home-mobile",
+            "colSizing": "auto"
         },
         "children": [
-            "vtex.menu@2.x:menu#websites"
+            "vtex.menu@2.x:menu#mobile"
         ]
     },
-    "vtex.menu@2.x:menu#websites": {
+    "vtex.menu@2.x:menu#mobile": {
         "props": {
             "blockClass": [
-                "menu-home"
+                "menu-home-mobile"
             ]
         },
         "title": "Menu websites",
