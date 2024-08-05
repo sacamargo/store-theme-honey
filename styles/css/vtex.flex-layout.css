@@ -10,7 +10,6 @@
 .flexRow--second-slider {
     max-width: 1280px;
     margin: auto;
-    padding: 0 62px;
 }
 
 .flexRowContent--image-info-card {
@@ -27,6 +26,7 @@
     height: 336.46px;
     border-radius: 12px;
     align-items: center;
+    
 }
 
 .flexColChild--img-trophy-info-card {
@@ -41,5 +41,12 @@
 
 .flexRow--product-list {
     margin-top: 73.11px;
-} 
+}
+
+.flexRow--text-sliders {
+    margin: auto;
+    max-width: 1280px;
+}
+
+
 

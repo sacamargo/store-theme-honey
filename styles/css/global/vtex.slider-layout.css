@@ -1,9 +1,13 @@
-.caretIcon--slider-info-card {
-    margin: -8px;
+.caretIcon {
+    margin: -7.8px;
+    max-width: none;
+    width: 20px;
+    height: 14px;
 }
 
 .paginationDotsContainer{
     bottom: -44px;
+    overflow-x: auto;
 }
 
 .paginationDot {
@@ -16,6 +20,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 2px;
+    min-width: 44px;
 }
 
 .paginationDot::after {
@@ -39,6 +44,22 @@
     font-size: 0;
     background-color: #1d2734;
     position: absolute;
+}
+
+.slideChildrenContainer--product-list {
+    padding-right: 8px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.sliderTrack--slider-info-card {
+    gap: 24px;
+}
+
+.sliderLayoutContainer--product-list {
+    width: 1092px;
+    height: 378px;
 }
 
 

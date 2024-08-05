@@ -1,0 +1,26 @@
+.flexRowContent--mobile__row--header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.flexRow--mobile__row--header {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.flexRowContent--mobile__row--header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.flexRowContent--drawer-logo--container--mobile {
+    display: flex;
+}
+
+.flexRowContent--minicart-login--container {
+    display: flex;
+}

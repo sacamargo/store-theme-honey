@@ -1,27 +1,43 @@
 {
-"flex-layout.row#phone_home-section": {
+    "flex-layout.row#phone_home-section": {
         "title": "phone row with text",
         "children": [
             "list-context.image-list#phonemain-hero"
         ]
     },
-
+    "flex-layout.row#phone__home--container": {
+        "props": {
+            "blockClass": "phone__home--container"
+        },
+        "children": [  
+            "flex-layout.col#phone__home--slider"
+        ]
+    },
+    "flex-layout.col#phone__home--slider": {
+        "props": {
+            "blockClass": "phone__home--slider"
+        },
+        "children": [
+            "flex-layout.row#global__second--slider"
+        ]
+    },
     "list-context.image-list#phonemain-hero": {
         "props": {
             "images": [
                 {
+                    "width": "360",
                     "image": "/arquivos/hero-mobile.png",
                     "description": "Main hero image",
-                    "link": {"url": "#"}
+                    "link": {
+                        "url": "#"
+                    }
                 }
             ]
         },
-
         "children": [
             "slider-layout#phonemain-hero-slider"
         ]
     },
-
     "slider-layout#phonemain-hero-slider": {
         "props": {
             "itemsPerPage": {
