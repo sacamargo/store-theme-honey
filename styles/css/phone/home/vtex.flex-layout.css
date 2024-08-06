@@ -7,3 +7,13 @@
     margin: auto;
     width: 100%;
 }
+
+.flexRowContent--menu__logo--login {
+    display: inline-flex;
+    margin: 0;
+}
+
+.flexRowContent--mobile__row--container {
+    align-items: center;
+    display: flex;
+}
