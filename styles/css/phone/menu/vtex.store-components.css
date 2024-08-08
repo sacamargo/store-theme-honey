@@ -1,0 +1,12 @@
+.logoContainer--logo--mobile {
+    display: flex;
+    align-items: center;
+    padding-right: 55px;
+}
+
+.searchIcon  {
+    width: 16px;
+    height: 16px;
+}
+
+
