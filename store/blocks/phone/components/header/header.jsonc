@@ -49,31 +49,5 @@
         "props": {
             "blockClass": "mobile__row--container"
         }
-    },
-    "drawer#mobile": {
-        "children": [
-            "drawer-header#my-drawer"
-        ]
-    },
-    "drawer-header#my-drawer": {
-        "children": [
-            "flex-layout.row#menu__logo--login"
-        ],
-        "props": []
-    },
-    "flex-layout.row#menu__logo--login": {
-        "children": [
-            "logo#mobile",
-            "login"
-        ],
-        "props": {
-            "blockClass": "menu__logo--login"
-        }
-    },
-    "menu#drawer": {
-        "children": [],
-        "props": {
-            "orientation": "vertical"
-        }
     }
 }

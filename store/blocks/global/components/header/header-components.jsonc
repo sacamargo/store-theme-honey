@@ -1,6 +1,7 @@
 {
     "login": {
         "props": {
+            "blockClass": "global--login",
             "iconLabel": "Login",
             "optionsTitle": "Log in",
             "emailAndPasswordTitle": "LOG-IN",
