@@ -80,7 +80,7 @@
     "search-result-layout.desktop": {
         "children": [
             "flex-layout.row#searchbread",
-            "flex-layout.row#searchtitle",
+            "flex-layout.row#content-title-order",
             "flex-layout.row#productCount",
             "flex-layout.row#result"
         ],
@@ -121,9 +121,15 @@
             "blockClass": "filterCol"
         }
     },
+
+    "flex-layout.row#content-title-order": {
+        "children": [
+            "flex-layout.row#searchtitle",
+            "flex-layout.row#searchinfo"
+        ]
+    },
     "flex-layout.col#content": {
         "children": [
-            "flex-layout.row#searchinfo",
             "flex-layout.row#fetchprevious",
             "flex-layout.row#products",
             "flex-layout.row#fetchmore"
