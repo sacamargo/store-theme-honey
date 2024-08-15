@@ -4,7 +4,6 @@
     font-family: Lexend-Light;
     display: inline-flex;
     font-size: 12px;
-    padding-top: 26px;
 }
 
 .link--itglobers--link::before {
@@ -24,17 +23,28 @@
 }
 
 .wrapper--itglobers--link {
+    padding-top: 16px;
     padding-left: 16px;
+    padding-bottom: 16px;
 }
+
 
 .wrapper--drawer__menu--item {
     padding-left: 16px;
-    padding-top: 2.8px;
-    padding-bottom: 2.8px;
+    padding-bottom: 16px;
 }
 
 .wrapper--drawer__menu--space {
-    width: 100%;
+    width: 208px;
     border: 1px solid #ccc;
     margin-left: 16px;
+    margin-right: 16px;
+}
+
+.paragraph--drawer__menu--item{
+    margin: 0;
+}
+
+.paragraph--itglobers--link {
+    margin: 0;
 }
