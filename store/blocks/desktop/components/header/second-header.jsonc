@@ -44,7 +44,7 @@
             },
             "iconProps": {
                 "id": "icon-food",
-                "size": 20,
+                "size": 18,
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
                 "mutedClassName": "c-action-primary"
@@ -148,7 +148,7 @@
                 "text": "Casas"
             },
             "iconProps": {
-                "id": "icon-casas",
+                "id": "icon-houses",
                 "size": 20,
                 "viewBox": "0 0 20 20",
                 "activeClassName": "rebel-pink",
