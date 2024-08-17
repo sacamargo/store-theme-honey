@@ -40,7 +40,7 @@
       "rowGap": 0
     },
     "children": [
-      "product-name",
+      "vtex.store-components:product-name",
       "product-price#product-details",
       "sku-selector",
       "flex-layout.row#quantity-buy",
