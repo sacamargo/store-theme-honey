@@ -54,3 +54,11 @@
     height: 39px;
     text-overflow: ellipsis;
 }
+
+.flexRowContent--search-title-phone {
+    padding-top: 16px;
+}
+
+.flexRow--search-info-mobile {
+    padding-bottom: 16px;
+}

@@ -2,6 +2,7 @@
     font-size: 12px;
     font-family: "Lexend-Light";
     padding: 10px;
+    padding-left: 20px;
 }
 
 
@@ -9,9 +10,17 @@
     font-size: 20px;
     font-family: "Lexend-SemiBold";
     margin: 0 0 16px 0;
+    padding-left: 64px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .galleryTitle--layout {
+        font-size: 14px;
+    }
 }
 
 .totalProducts--layout {
+    margin-left: 64px;
     text-align: left;
     padding: 0 0 40px 0;
     font-size: 14px;
@@ -22,15 +31,6 @@
 
 .totalProductsMessage {
     color: #1D2734;
-}
-
-.filterIsOpen {
-    width: 184px;
-    height: 36px;
-    border: 1px solid #ccc;
-    border-radius: 40px;
-    padding: 8px 16px;
-    background-color: #1D27341A;
 }
 
 .filterAvailable {
@@ -45,6 +45,8 @@
 .filterTitleSpan {
     font-family: "Lexend-Regular";
     font-size: 14px;
+    padding-bottom: 10px;
+    
 }
 
 .filter__container--selectedFilters {
@@ -57,10 +59,15 @@
 
 .filters--layout {
     width: 184px;
+    margin-left: 64px;
 }
 
 .filter__container--title {
     display: none;
+}
+
+.orderBy--layout {
+    padding-right: 16px;
 }
 
 .filter__container {
@@ -69,7 +76,7 @@
 
 .galleryItem--grid {
     flex-basis: unset !important;
-    padding: 0;
+
 }
 
 .filterPopupTitle {
@@ -97,7 +104,7 @@
 }
 
 .filter__container :global(.vtex-checkbox__box-wrapper) {
-    border: 1px solid black;
+    border: 1px solid #1D2734;
     border-radius: 3px;
 }
 
@@ -109,4 +116,27 @@
     .totalProducts--layout {
         display: none;
     }
+}
+
+.buttonShowMore--fetch-more-button {
+    padding-top: 40.7px;
+}
+
+.buttonShowMore--fetch-more-button :global(.vtex-button) {
+    border-color: #1D2734;
+    border-radius: 40px;
+    background-color: #1D2734;
+    text-transform: initial;
+    text-align: center;
+    width: 150px;
+}
+
+.buttonShowMore--fetch-more-button :global(.vtex-button) :global(.vtex-button__label){
+    font-size: 14px;
+    font-family: "Lexend-Regular";
+}
+
+.buttonShowMore--fetch-more-button :global(.vtex-button)::after {
+    content: url(/arquivos/mpa-plus--line.svg);
+    padding-right: 10px;
 }

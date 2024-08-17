@@ -98,10 +98,27 @@
             "fullWidth": true
         }
     },
+    "flex-layout.row#searchbreadphone": {
+        "children": [
+            "breadcrumb.search"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "fullWidth": true
+        }
+    },
     "flex-layout.row#searchtitle": {
         "children": [
             "search-title.v2"
         ]
+    },
+    "flex-layout.row#searchtitlephone": {
+        "children": [
+            "search-title.v2"
+        ],
+        "props": {
+            "blockClass": "search-title-phone"
+        }
     },
     "flex-layout.row#result": {
         "children": [
@@ -187,6 +204,7 @@
     },
     "search-fetch-more": {
         "props": {
+            "blockClass": "fetch-more-button",
             "htmlElementForButton": "a"
         }
     },
@@ -203,8 +221,9 @@
     },
     "search-result-layout.mobile": {
         "children": [
+            "flex-layout.row#searchbreadphone",
+            "flex-layout.row#searchtitlephone",
             "flex-layout.row#searchinfomobile",
-            "flex-layout.row#searchbread",
             "flex-layout.row#productCountMobile",
             "flex-layout.row#fetchprevious",
             "flex-layout.row#contentmobile",
@@ -235,7 +254,8 @@
         "props": {
             "preserveLayoutOnMobile": true,
             "colSizing": "auto",
-            "colJustify": "around"
+            "colJustify": "around",
+            "blockClass": "search-info-mobile"
         }
     },
     "flex-layout.col#orderByMobile": {
