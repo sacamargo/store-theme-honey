@@ -1,0 +1,11 @@
+.paragraph--empty-state-one {
+    font-family: "Lexend-SemiBold";
+    font-size: 14px;
+    color: rgba(29, 39, 52, 1);
+}
+
+.paragraph--empty-state-two {
+    font-family: "Lexend-Light";
+    font-size: 12px;
+    color: rgba(29, 39, 52, 1);
+}

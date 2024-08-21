@@ -106,6 +106,7 @@
             "flex-layout.row#minicart-footer"
         ],
         "props": {
+            "blockClass": "empty-state",
             "horizontalAlign": "center",
             "verticalAlign": "middle",
             "rowGap": 5
@@ -120,11 +121,13 @@
     },
     "rich-text#minicart-default-empty-state": {
         "props": {
+            "blockClass": "empty-state-one",
             "text": "¿Por qué tan solo?"
         }
     },
     "rich-text#minicart-default-empty-statetwo": {
         "props": {
+            "blockClass": "empty-state-two",
             "text": "¿Tenemos ofertas del 50% este mes?"
         }
     }
