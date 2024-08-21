@@ -7,7 +7,7 @@
     },
     "flex-layout.row#phone__home--container": {
         "props": {
-            "blockClass": "phone__home--container"
+            "blockClass": "hero--phone"
         },
         "children": [  
             "flex-layout.col#phone__home--slider"
@@ -15,7 +15,7 @@
     },
     "flex-layout.col#phone__home--slider": {
         "props": {
-            "blockClass": "phone__home--slider"
+            "blockClass": "hero--phone"
         },
         "children": [
             "flex-layout.row#global__second--slider"
@@ -23,6 +23,7 @@
     },
     "list-context.image-list#phonemain-hero": {
         "props": {
+            "blockClass": "image-hero-phone",
             "images": [
                 {
                     "width": "360",

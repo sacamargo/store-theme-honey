@@ -10,14 +10,19 @@
     },
     "slider-layout#second__slider": {
         "props": {
+            "centerMode": {
+                "desktop": "to-the-left" 
+        },
+            "centerModeSlidesGap": 10,
             "showNavigationArrows": "desktopOnly",
-            "fullWidth": false,
+
+            "fullWidth": true,
             "title": "global second slider home",
             "blockClass": "slider-info-card",
             "itemsPerPage": {
-                "desktop": 4,
+                "desktop": 3,
                 "tablet": 3,
-                "phone": 2
+                "phone": 1
             }
         },
         "children": [
