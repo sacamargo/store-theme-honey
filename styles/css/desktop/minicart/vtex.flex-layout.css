@@ -3,5 +3,9 @@
 }
 
 .flexColChild--empty-state {
-    padding-bottom: 4px;
+    padding-bottom: 0;
+}
+
+.flexColChild--minicart--row {
+    padding-bottom: 0;
 }

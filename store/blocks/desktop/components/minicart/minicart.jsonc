@@ -115,8 +115,8 @@
     "image#minicar-empty-state": {
         "props": {
             "src": "/arquivos/empty--cart_image.png",
-            "maxWidth": "148px",
-            "maxHeight": "148px"
+            "maxWidth": "200px",
+            "maxHeight": "200px"
         }
     },
     "rich-text#minicart-default-empty-state": {
@@ -128,7 +128,7 @@
     "rich-text#minicart-default-empty-statetwo": {
         "props": {
             "blockClass": "empty-state-two",
-            "text": "¿Tenemos ofertas del 50% este mes?"
+            "text": "Tenemos ofertas del 50% este mes"
         }
     }
 }
