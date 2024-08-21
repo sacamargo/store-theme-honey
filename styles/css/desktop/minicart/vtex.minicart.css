@@ -24,6 +24,14 @@
     margin-top: 151px;
 }
 
+.overlay--visible {
+    opacity: initial !important;
+    backdrop-filter: blur(10px);
+    background-color: initial;
+    transition: filter 0.3s ease;
+
+}
+
 @media screen and (min-with: 360px) {
     .closeIconContainer {
         display: none;
