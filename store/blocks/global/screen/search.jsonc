@@ -98,27 +98,10 @@
             "fullWidth": true
         }
     },
-    "flex-layout.row#searchbreadphone": {
-        "children": [
-            "breadcrumb.search"
-        ],
-        "props": {
-            "preserveLayoutOnMobile": true,
-            "fullWidth": true
-        }
-    },
     "flex-layout.row#searchtitle": {
         "children": [
             "search-title.v2"
         ]
-    },
-    "flex-layout.row#searchtitlephone": {
-        "children": [
-            "search-title.v2"
-        ],
-        "props": {
-            "blockClass": "search-title-phone"
-        }
     },
     "flex-layout.row#result": {
         "children": [
@@ -127,7 +110,8 @@
         ],
         "props": {
             "preventHorizontalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "blockClass": "plp--content"
         }
     },
     "flex-layout.col#filter": {
@@ -138,7 +122,6 @@
             "blockClass": "filterCol"
         }
     },
-
     "flex-layout.row#content-title-order": {
         "children": [
             "flex-layout.row#searchtitle",
@@ -204,7 +187,6 @@
     },
     "search-fetch-more": {
         "props": {
-            "blockClass": "fetch-more-button",
             "htmlElementForButton": "a"
         }
     },
@@ -219,12 +201,16 @@
             "not-found"
         ]
     },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true
+        }
+    },
     "search-result-layout.mobile": {
         "children": [
-            "flex-layout.row#searchbreadphone",
-            "flex-layout.row#searchtitlephone",
+            "flex-layout.row#searchbread",
+            "search-title.v2",
             "flex-layout.row#searchinfomobile",
-            "flex-layout.row#productCountMobile",
             "flex-layout.row#fetchprevious",
             "flex-layout.row#contentmobile",
             "flex-layout.row#fetchmore"
@@ -248,14 +234,12 @@
     "flex-layout.row#searchinfomobile": {
         "children": [
             "flex-layout.col#orderByMobile",
-            "flex-layout.col#filterMobile",
-            "flex-layout.col#switcherMobile"
+            "flex-layout.col#filterMobile"
         ],
         "props": {
             "preserveLayoutOnMobile": true,
             "colSizing": "auto",
-            "colJustify": "around",
-            "blockClass": "search-info-mobile"
+            "colGap": 0
         }
     },
     "flex-layout.col#orderByMobile": {
@@ -280,14 +264,6 @@
         ],
         "props": {
             "blockClass": "filterMobileCol"
-        }
-    },
-    "flex-layout.col#switcherMobile": {
-        "children": [
-            "gallery-layout-switcher"
-        ],
-        "props": {
-            "verticalAlign": "middle"
         }
     },
     "search-not-found-layout": {
