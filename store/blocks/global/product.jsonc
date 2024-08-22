@@ -8,6 +8,7 @@
   },
   "flex-layout.row#product-main": {
     "props": {
+      "blockClass": "product-main",
       "colGap": 7,
       "rowGap": 7,
       "marginTop": 4,
@@ -36,6 +37,7 @@
   },
   "flex-layout.col#right-col": {
     "props": {
+      "blockClass": "right-col",
       "preventVerticalStretch": true,
       "rowGap": 0
     },
@@ -51,7 +53,8 @@
   },
   "flex-layout.row#quantity-buy": {
     "props": {
-      "blockClass": "quantity-buy"
+      "blockClass": "quantity-buy",
+      "colSizing": "auto"
     },
     "children": [
       "product-quantity",

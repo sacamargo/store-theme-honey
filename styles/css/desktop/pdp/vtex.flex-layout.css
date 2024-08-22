@@ -1,0 +1,30 @@
+.flexRowContent--product-main {
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.flexRow--product-main :global(.vtex-store-components-3-x-container) {
+    padding: 0 72px 0 80px;
+}
+
+.flexRow--quantity-buy :global(.vtex-button) {
+    background-color: #492A77;
+    border: 0;
+}
+
+.flexCol--right-col {
+    max-width: 481px;
+}
+
+.flexRowContent--quantity-buy .stretchChildrenWidth:last-child {
+    width: 100% !important;
+}
+
+.flexRowContent--quantity-buy .stretchChildrenWidth {
+    padding: 0;
+}
+
+.flexRowContent--quantity-buy {
+    gap: 16px
+}
+
