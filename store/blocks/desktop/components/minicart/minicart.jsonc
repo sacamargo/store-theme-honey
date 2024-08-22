@@ -4,7 +4,6 @@
             "MinicartIcon": "icon-cart#minicart-icon"
         },
         "children": [
-            "flex-layout.row#minicart--logo-close",
             "minicart-base-content"
         ]
     },
@@ -22,9 +21,14 @@
             "flex-layout.row#minicart-footer"
         ]
     },
-    "flex-layout.row#minicart--logo-close": {
+    "product-list-content-desktop": {
         "children": [
-            "logo"
+            "flex-layout.row#minicart__product"
+        ]
+    },
+    "product-list-content-mobile": {
+        "children": [
+            "flex-layout.row#minicart__product"
         ]
     },
     "flex-layout.row#minicart-footer": {
@@ -54,8 +58,14 @@
             "blockClass": "content-minicart"
         },
         "blocks": [
+            "product-list-content-desktop",
             "product-list-content-mobile"
         ]
+    },
+    "quantity-selector": {
+        "props": {
+            "mode": "stepper"
+        }
     },
     "minicart-summary": {
         "blocks": [
@@ -130,5 +140,44 @@
             "blockClass": "empty-state-two",
             "text": "Tenemos ofertas del 50% este mes"
         }
+    },
+    "flex-layout.row#minicart__product": {
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "minicart__product"
+        },
+        "children": [
+            "flex-layout.col#minicart__image",
+            "flex-layout.col#minicart__description",
+            "flex-layout.col#minicart__delete"
+        ]
+    },
+    "flex-layout.col#minicart__image": {
+        "props": {
+            "blockClass":[
+                "minicart__image"
+            ]
+        },
+        "children": [
+            "product-list-image"
+        ]
+    },
+    "flex-layout.col#minicart__description": {
+        "props": {
+            "blockClass":[
+                "minicart__description"
+            ]
+        },
+        "children": [
+            "vtex.product-list:product-name",
+            "price",
+            "quantity-selector"
+        ]
+    },
+    "flex-layout.col#minicart__delete": {
+
+        "children": [
+            "remove-button"
+        ]
     }
 }
