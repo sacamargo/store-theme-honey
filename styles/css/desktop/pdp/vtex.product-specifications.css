@@ -4,6 +4,7 @@
 
 .groupName {
     font-size: 0;
+    padding-left: 72px;
 }
 
 .groupName::after {
@@ -11,6 +12,13 @@
     font-size: 16px;
     font-family: "Lexend-SemiBold";
     color: #1D2734;
-    padding-left: 72px;
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .groupName {
+        padding-left: 17px;
+    }
+}
+
+
 

@@ -14,3 +14,16 @@
     padding-right: 10px;
     color: #FFFFFF;
 }
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .buttonText--cart-pdp {
+        font-size: 0;
+    }
+
+    .buttonText--cart-pdp::after {
+        content: "Agregar";
+        font-size: 14px;
+        font-family: "Lexend-Regular";
+
+    }
+}

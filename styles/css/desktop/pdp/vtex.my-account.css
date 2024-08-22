@@ -23,6 +23,20 @@
     display: flex;
 }
 
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li):nth-child(odd) {
+        width: 328px;
+    }
+
+    :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li):nth-child(even) {
+        width: 328px;
+    }
+
+    :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) {
+        padding: 0 17px 0 17px;
+    }
+}
+
 :global(.vtex-numeric-stepper__plus-button ) {
     height: 46px !important;
     width: 40px !important;

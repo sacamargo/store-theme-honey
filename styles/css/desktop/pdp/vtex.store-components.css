@@ -19,9 +19,16 @@
     height: 76px;
 }
 
+@media screen and (min-width: 1204x ){
+    .productImage {
+        width: 515px;
+        height: 650px;
+    }
+}
+
+
 .productImage {
-    width: 515px;
-    height: 650px;
+
     border: 1px solid;
     border-radius: 4px;
     border-color: #E7E7E7;
@@ -68,8 +75,15 @@
     font-family: "Lexend-Light";
 }
 
+.skuSelectorContainer{
+    display: grid;
+    grid-auto-rows: auto;
+}
 
+.skuSelectorSubcontainer--color {
+    grid-row: 2;
+}
 
-@media screen {
-    
+.carouselGaleryThumbs{
+    display: block;
 }
