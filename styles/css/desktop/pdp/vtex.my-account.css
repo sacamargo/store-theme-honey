@@ -7,6 +7,10 @@
     color: #1D2734;
 }
 
+:global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li) {
+    padding-left: 24px;
+}
+
 :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li):nth-child(odd) {
     background-color: #E7E7E7;
     width: 1069px;
@@ -34,6 +38,10 @@
 
     :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) {
         padding: 0 17px 0 17px;
+    }
+
+    :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li) {
+        padding-left: 16px;
     }
 }
 
