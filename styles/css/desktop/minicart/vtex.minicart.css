@@ -2,9 +2,15 @@
     border-radius: 40px;
     background-color: rgba(29, 39, 52, 1);
     border-color: rgba(29, 39, 52, 1);
-    text-transform: initial;
-    font-size: 14px;
+    font-size: 0px;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::after {
+    content: "Finalizar tu compra";
     font-family: "Lexend-Regular";
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: initial;   
 }
 
 .minicartTitle {
