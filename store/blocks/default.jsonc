@@ -1,22 +1,19 @@
 {
   "store.orderplaced": {
-    "blocks": [
-      "order-placed"
-    ]
+    "blocks": ["order-placed"]
   },
+
   "store.account": {
-    "blocks": [
-      "my-account"
-    ],
+    "blocks": ["my-account"],
     "parent": {
       "challenge": "challenge.profile"
     }
   },
+
   "store.login": {
-    "blocks": [
-      "login-content#default"
-    ]
+    "blocks": ["login-content#default"]
   },
+
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
@@ -24,44 +21,16 @@
       "showPasswordVerificationIntoTooltip": true
     }
   },
-  "flex-layout.row#product-summary-plp": {
-    "props": {
-      "blockClass": "product-summary-plp"
-    },
-    "children": [
-      "flex-layout.col#image-plp",
-      "flex-layout.col#name-price-plp"
-    ]
-  },
-  "flex-layout.col#name-price-plp": {
-    "props": {
-      "blockClass": "name-price-plp"
-    },
-    "children": [
-      "product-summary-name",
-      "product-summary-price",
-      "rich-text#product--slider__free--shiping"
-    ]
-  },
-  "product-summary-name": {
-    "props": {
-      "blockClass": "name-plp"
-    }
-  },
-  "flex-layout.col#image-plp": {
-    "props": {
-      "blockClass": "image-plp"
-    },
-    "children": [
-      "product-summary-image"
-    ]
-  },
+
   "product-summary.shelf": {
-    "props": {
-      "blockClass": "product-summary-plp"
-    },
     "children": [
-      "flex-layout.row#product-summary-plp"
+      "product-summary-add-to-list-button",
+      "product-summary-name",
+      "product-rating-inline",
+      "product-summary-space",
+      "product-summary-price",
+      "product-identifier.summary",
+      "add-to-cart-button"
     ]
   }
 }
