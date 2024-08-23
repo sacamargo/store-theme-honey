@@ -52,13 +52,22 @@
 .sellingPrice {
     font-size: 24px;
     font-family: "Lexend-SemiBold";
+    padding-right: 0;
 }
 
 .sellingPriceLabel {
+    font-size: 0px;
+}
+
+.sellingPriceLabel::before {
+    content: "Now";
     font-size: 24px;
     font-family: "Lexend-SemiBold";
 }
 
+.price_listPriceLabel {
+    display: none;
+}
 
 .skuSelectorInternalBox {
     width: 108.07px;
@@ -86,4 +95,24 @@
 
 .carouselGaleryThumbs{
     display: block;
+}
+
+.shareLabel {
+    margin-top: 16px;
+    font-family: 'Lexend-SemiBold';
+    font-size: 0px;
+    line-height: 16px;
+    color: #1D2734;
+}
+
+.shareLabel::before {
+    content: "Share";
+    font-size: 16px;
+}
+
+.skuSelectorName {
+    font-family: 'Lexend-SemiBold';
+    font-size: 16px;
+    line-height: 16.8px;
+    color: #1D2734;
 }

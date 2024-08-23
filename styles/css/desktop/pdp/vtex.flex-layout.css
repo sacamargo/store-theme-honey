@@ -41,7 +41,7 @@
 
 .flexRowContent--price--row--pdp :global(.vtex-store-components-3-x-priceContainer){
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 196px 1fr;
 }
 
 .flexRowContent--price--row--pdp :global(.vtex-store-components-3-x-price_listPriceContainer){
@@ -63,12 +63,18 @@
     padding-bottom: 6px;
     padding-left: 12px;
     padding-right: 12px;
-    background-color: #FF832433;
+    font-size: 14px;
+    font-family: 'Lexend-Regular';
     width: fit-content;
     margin-right: 10px;
 }
 
-.flexRowContent--highlights--row .stretchChildrenWidth {
-    width: auto !important;
+.flexRowContent--highlights--row {
+    justify-content: unset;
 }
+
+.flexRowContent--highlights--row .stretchChildrenWidth {
+    padding: 0;
+}
+
 
