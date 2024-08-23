@@ -12,7 +12,7 @@
   "product-summary.shelf#product-list__items-container": {
     "children": [
       "flex-layout.row#listbtn--pricesaving",
-      "product-summary-image#home__slider",
+      "product-summary-image",
       "product-summary-name",
       "product-summary-space",
       "product-list-price",
@@ -46,7 +46,7 @@
     }
   },
 
-  "product-summary-image#home__slider": {
+  "product-summary-image": {
     "title": "Image to product summary",
     "props": {
       "showBadge": false,
