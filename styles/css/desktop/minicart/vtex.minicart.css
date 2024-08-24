@@ -1,4 +1,77 @@
-/* Example desktop:
+.minicartCheckoutButton :global(.vtex-button) {
+    border-radius: 40px;
+    background-color: rgba(29, 39, 52, 1);
+    border-color: rgba(29, 39, 52, 1);
+    font-size: 0px;
+}
+
+.minicartCheckoutButton :global(.vtex-button)::after {
+    content: "Finalizar tu compra";
+    font-family: "Lexend-Regular";
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: initial;   
+}
+
 .minicartTitle {
-    display: none;
-} */
+    font-size: 0px;
+    margin-bottom: 12px ;
+    padding: 0 0 0 16px;
+}
+
+.minicartTitle::after {
+    content: "Resumen de tu compra";
+    font-size: 14px;
+    font-family: "Lexend-SemiBold";
+}
+
+.minicartSummary {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 0;
+}
+.closeIconContainer {
+    align-items: center;
+    justify-content: space-between;
+    padding: 34px 16px 26.61px 16px;
+}
+.closeIconContainer::before {
+    content: "" ;
+    width: 50px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(/arquivos/itg--logo.svg);
+    background-repeat: no-repeat;
+}
+
+.overlay--visible {
+    opacity: initial !important;
+    backdrop-filter: blur(10px);
+    background-color: initial;
+    transition: filter 0.3s ease;
+
+}
+
+.closeIconButton {
+    padding: 0;
+}
+
+.minicartProductListContainer {
+    padding: 0 0 0 16px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px){
+    .closeIconContainer {
+        display: none;
+    }
+
+    .drawer {
+        min-width: 360px !important;
+    }
+
+    .drawerContent {
+        height: 538px;
+    }
+}
+
+
