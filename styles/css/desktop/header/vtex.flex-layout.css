@@ -4,6 +4,10 @@
     justify-content: center;
 }
 
+.flexRow--mobile__row--header {
+    padding-top: 24px;
+}
+
 .flexRow--header-row-1 {
     background-color: rgba(255, 255, 255, 1);
     height: 56px;
