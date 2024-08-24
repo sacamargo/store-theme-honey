@@ -116,3 +116,10 @@
     line-height: 16.8px;
     color: #1D2734;
 }
+
+.price_listPrice {
+    padding-left: 8px;
+}
+.currencyLiteral {
+    display: none;
+}
