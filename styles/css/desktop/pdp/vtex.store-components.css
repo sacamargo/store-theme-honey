@@ -14,12 +14,16 @@
     border-color: #E7E7E7;
 }
 
+.currencyLiteral {
+    display: none;
+}
+
 .thumbImg {
     width: 90px;
     height: 76px;
 }
 
-@media screen and (min-width: 1204x ){
+@media screen and (min-width: 1024px ){
     .productImage {
         width: 515px;
         height: 650px;
@@ -49,10 +53,18 @@
     font-family: "Lexend-Regular";
 }
 
+.price_listPriceLabel {
+    display: none;
+}
+
 .sellingPrice {
     font-size: 24px;
     font-family: "Lexend-SemiBold";
     padding-right: 0;
+}
+
+.price_listPrice {
+    padding-left: 8px;
 }
 
 .sellingPriceLabel {
@@ -63,16 +75,15 @@
     content: "Now";
     font-size: 24px;
     font-family: "Lexend-SemiBold";
+    padding-right: 5px;
 }
 
-.price_listPriceLabel {
-    display: none;
-}
 
 .skuSelectorInternalBox {
     width: 108.07px;
     height: 40px;
     border-radius: 4px;
+
 }
 
 .frameAround {
@@ -99,7 +110,7 @@
 
 .shareLabel {
     margin-top: 16px;
-    font-family: 'Lexend-SemiBold';
+    font-family: Lexend-SemiBold;
     font-size: 0px;
     line-height: 16px;
     color: #1D2734;
@@ -111,15 +122,31 @@
 }
 
 .skuSelectorName {
-    font-family: 'Lexend-SemiBold';
+    font-family: Lexend-SemiBold;
     font-size: 16px;
     line-height: 16.8px;
     color: #1D2734;
 }
 
-.price_listPrice {
-    padding-left: 8px;
+.skuSelectorItemImage {
+    width: 64px;
+    height: 64px;
+    justify-content: center;
+    display: flex;
 }
-.currencyLiteral {
-    display: none;
+
+
+.skuSelectorOptionsList {
+    gap: 8px;
+}
+
+.skuSelectorItemImage .skuSelectorInternalBox {
+    width: 40px;
+    height: 40px;
+}
+
+@media screen and (min-width: 360px  ) and (max-width:640px){
+    .skuSelectorInternalBox {
+        width: 77px;
+    }
 }

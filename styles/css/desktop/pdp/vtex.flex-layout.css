@@ -71,9 +71,14 @@
 
 .flexRowContent--highlights--row {
     justify-content: unset;
+    display: flex;
 }
 
 .flexRowContent--highlights--row .stretchChildrenWidth {
+    padding: 0;
+}
+
+.flexRowContent--product-main .stretchChildrenWidth  {
     padding: 0;
 }
 

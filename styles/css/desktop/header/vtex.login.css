@@ -2,15 +2,15 @@
     padding: 0;
     text-transform: initial;
     color: white;
-    font-family: "Lexend-Light";
+    font-family: Lexend-Light;
     font-size: 14px;
     display: block;
 }
 
-.container {
-    background-color: #1D2734;
-    width: 80px;
-    height: 40px;
+.container :global(.vtex-button) {
+    background-color: #1D2734 !important;
+    width: 80px !important;
+    height: 40px !important;
     border-radius: 40px;
     border: 1px;
 }
@@ -25,7 +25,6 @@
 
 .content {
     width: 423px;
-    /*height          : 303px;*/
     height: auto;
     background-color: #000000 25%;
     border-radius: 0px 0px 8px 8px;
@@ -136,7 +135,7 @@
     text-align: center;
     color: #5E636E;
     text-transform: lowercase;
-    /*position    : relative;*/
+    font-family: 'Lexend-Regular';
 }
 
 .googleOptionBtn :global(.vtex-login-2-x-oauthLabel) ::before {
@@ -163,15 +162,6 @@
     z-index: 10;
 }
 
-
-/*.googleOptionBtn :global(.vtex-login-2-x-oauthLabel) ::first-letter {
-    text-transform: capitalize !important;
-}
-
-.googleOptionBtn :global(.vtex-login-2-x-oauthProvider) ::first-letter {
-    text-transform: capitalize !important;
-}*/
-
 .facebookOptionBtn :global(.vtex-button) {
     width: 368px;
     height: 48px;
@@ -184,6 +174,7 @@
     text-align: center;
     color: #FFFFFF;
     text-transform: lowercase;
+    font-family: 'Lexend-Regular';
 }
 
 .facebookOptionBtn :global(.vtex-login-2-x-oauthLabel)::before {
@@ -192,7 +183,7 @@
     position: absolute;
     top: 0;
     left: -30px;
-    background-color: #1877F2;
+    background-color: rgba(24, 119, 242, 1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,22 +198,13 @@
     line-height: 20px;
 }
 
-/*.facebookOptionBtn :global(.vtex-login-2-x-oauthLabel) ::first-letter {
-    text-transform: capitalize !important;
-}
-
-.facebookOptionBtn :global(.vtex-login-2-x-oauthProvider) ::first-letter {
-    text-transform: capitalize !important;
-}*/
-
-.facebookOptionBtn :global(.vtex-button__label) svg {
+.facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) :global(svg) {
     background-color: #FFFFFF;
     border-radius: 50%;
     z-index: 10;
 }
 
 .contentForm :global(.vtex-login-2-x-emailVerification) {
-    /*bottom  : 20px;*/
     position: relative;
 }
 
@@ -270,18 +252,6 @@
     padding: 10px;
 }
 
-/* .inputContainerEmail :global(form) :global(.inputContainerEmail) :global(.vtex-input) :global(.vtex-input-prefix__group) {
-    font-size: 0px;    
-}
-
-.inputContainerEmail :global(form) :global(.inputContainerEmail) :global(.vtex-input) :global(.vtex-input-prefix__group)::before {
-    content: "Enter your e-mail";
-    text-transform: initial;
-    font-size: 14px;
-    font-family: 'Lexend-Regular';
-    color: rgba(29, 39, 52, 1);
-} */
-
 .emailAndPasswordForm :global(form) :global(.vtex-login-2-x-formFooter) :global(.vtex-login-2-x-sendButton) :global(button) :global(.vtex-button__label) :global(span) {
     font-size: 0px;
 }
@@ -321,19 +291,29 @@
 
 .formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink) {
     font-size: 0;
+    width: 264px;
 }
 
-.formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink)::after {
-    content: "Forgot your password? Reset password";
+.formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink)::before{
+    content: "Forgot your password?";
     font-size: 14px;
     font-family: 'Lexend-Light';
-    display: block;
     text-align: center;
-    position: absolute;
-    width: 264px;
+    padding-right: 3px;
     height: 20px;
     z-index: 1;
     color: rgba(29, 39, 52, 1);
+}
+
+.formLinkContainer :global(.vtex-login-2-x-forgotPasswordLink)::after {
+    content: "Reset password";
+    font-size: 14px;
+    font-family: 'Lexend-Light';
+    text-decoration: underline;
+    text-align: center;
+    height: 20px;
+    z-index: 1;
+    color: rgba(229, 106, 84, 1);
 }
 
 
@@ -440,4 +420,46 @@
 
 .inputContainerAccessCode :global(.vtex-styleguide-9-x-input) {
     font-family: lexend, sans-serif !important;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .content--emailAndPassword {
+        height: auto;
+    }
+
+    .content {
+        width: 360px;
+    }
+
+    .inputContainer :global(.vtex-input-prefix__group)  {
+        width: 350px;
+    }
+
+    .accessCodeOptionBtn :global(.vtex-button) {
+        width: 350px;
+    }
+
+    .sendButton :global(.vtex-button) {
+        width: 350px;
+    }
+
+    .facebookOptionBtn :global(.vtex-button) {
+        width: 350px;
+    }
+
+    .googleOptionBtn :global(.vtex-button) {
+        width: 350px;
+    }
+
+    .emailPasswordOptionBtn :global(.vtex-button){
+        width: 350px;
+    }
+
+    .accessCodeOptionBtn :global(.vtex-button) {
+        width: 350px;
+    }
+
+    .backButton {
+        display: none;
+    }
 }

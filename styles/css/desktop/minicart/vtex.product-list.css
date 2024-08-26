@@ -24,18 +24,29 @@
     width: 37.81px;
     height: 43.48px;
     background-color: #1D2734;
+    color: #FFFFFF;
 }
 
 .quantitySelectorIncrease {
     width: 37.81px;
     height: 43.48px;
     background-color: #1D2734;
+    color: #FFFFFF;
+}
+
+.quantitySelectorButton:hover {
+    border-color: unset !important;
+    background-color: #1D2734 !important;
 }
 
 .productName {
     font-size: 11.34px;
     font-family: "Lexend-Light";
     color: rgba(29, 39, 52, 1);
+    display: block;
+    height: 50px;
+    overflow: hidden;
+    font-weight: 300;
 }
 
 .productPriceCurrency {
@@ -53,4 +64,8 @@
 .productImageContainer {
     width: 145.19px !important;
     height: 120.99px !important;
+}
+
+.deleteIcon {
+    height: 19px;
 }

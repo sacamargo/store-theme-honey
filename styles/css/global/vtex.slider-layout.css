@@ -59,6 +59,7 @@
     height: 378px;
 }
 
+
 @media screen and (min-width: 1024px){
     .sliderLayoutContainer--slider-info-card{
         padding: 0 30px;

@@ -17,6 +17,10 @@
     padding-bottom: 8px;
 }
 
+.headerRowContentContainer--menu-home-2 {
+    max-width: 1280px;
+}
+
 .flexRowContent--container-header {
     gap: 13px
 }

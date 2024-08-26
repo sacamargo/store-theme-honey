@@ -2,15 +2,9 @@
     border-radius: 40px;
     background-color: rgba(29, 39, 52, 1);
     border-color: rgba(29, 39, 52, 1);
-    font-size: 0px;
-}
-
-.minicartCheckoutButton :global(.vtex-button)::after {
-    content: "Finalizar tu compra";
-    font-family: "Lexend-Regular";
+    text-transform: initial;
     font-size: 14px;
-    color: #FFFFFF;
-    text-transform: initial;   
+    font-family: "Lexend-Regular";
 }
 
 .minicartTitle {
@@ -44,6 +38,11 @@
     background-repeat: no-repeat;
 }
 
+.drawerContent {
+    overflow-y: hidden;
+}
+
+
 .overlay--visible {
     opacity: initial !important;
     backdrop-filter: blur(10px);
@@ -68,10 +67,9 @@
     .drawer {
         min-width: 360px !important;
     }
-
-    .drawerContent {
-        height: 538px;
-    }
 }
 
-
+.closeIconButton {
+    border-radius: 40px;
+    background-color: #F5F4F6;
+}
