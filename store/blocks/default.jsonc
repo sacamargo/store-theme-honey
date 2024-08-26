@@ -39,8 +39,7 @@
     },
     "children": [
       "product-summary-name",
-      "product-summary-price",
-      "rich-text#product--slider__free--shiping"
+      "product-summary-price"
     ]
   },
   "product-summary-name": {
