@@ -59,7 +59,8 @@
   },
   "flex-layout.row#listbtn--pricesaving": {
     "props": {
-      "blockClass": "listbtn-pricesaving"
+      "blockClass": "listbtn-pricesaving",
+      "colSizing":"auto"
     },
     "children": [
       "product-price-savings",

@@ -9,6 +9,7 @@
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true
+
         }
     },
     "login#phone": {
@@ -29,6 +30,7 @@
             "height": 20,
             "mobileWidth": 90,
             "mobileHeight": 32,
+            "href": "https://santiagocamargoitg--itgloberspartnercl.myvtex.com/",            
             "url": "/arquivos/itg--logo.svg",
             "blockClass": [
                 "global--logo"

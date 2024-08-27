@@ -1,15 +1,11 @@
-.menuContainer--menu-home {
-    text-align: center;
-
-}
-
 .menuItem {
     width: 70px;
 }
 
 .menuContainer--menu-home {
-    padding-left: 48px;
-    gap: 4px;
+    text-align: center;
+    padding-left: 46px;
+    gap: 0px;
 }
 
 .styledLinkIcon {
@@ -29,8 +25,4 @@
     font-family: "Lexend-Light";
     color: rgba(29, 39, 52, 1);
     padding-top: 10px;
-}
-
-.menuContainer--menu-home {
-    gap: 0px;
 }
