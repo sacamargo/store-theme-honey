@@ -5,6 +5,7 @@
 .groupName {
     font-size: 0;
     padding-left: 72px;
+    width: auto !important;
 }
 
 .groupName::after {
