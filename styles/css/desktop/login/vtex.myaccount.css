@@ -1,0 +1,8 @@
+:global(div:last-child) :global(.vtex-pageHeader__container ) :global(.vtex-pageHeader-link__container) :global(.vtex-button) :global(div) :global(span) {
+    font-family: 'Lexend-Regular';
+    color: rgba(12, 35, 64, 1);
+}
+
+:global(div:last-child) :global(.vtex-pageHeader__container ) :global(.vtex-pageHeader-link__container) :global(.vtex-button) :global(div) :global(svg) {
+    color: rgba(12, 35, 64, 1);
+}
