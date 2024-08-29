@@ -1,0 +1,17 @@
+.paragraph--tendencias--itg {
+    font-family: 'Lexend-SemiBold';
+    color: #FF8324;
+}
+
+.container--tendencias--itg {
+    justify-content: center;
+}
+
+.paragraph--text-custom-page {
+    font-family: 'Lexend-SemiBold';
+    color: #1D2734;
+}
+
+.container--text-custom-page {
+    justify-content: center;
+}

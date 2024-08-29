@@ -6,7 +6,8 @@
             "mobileWidth": 32,
             "mobileHeight": 16,
             "url": "/arquivos/itg--logo.svg",
-            "blockClass": "logo--mobile"
+            "blockClass": "logo--mobile",
+            "href": "/#"
         }
     },
     "vtex.menu@2.x:menu#mobile": {

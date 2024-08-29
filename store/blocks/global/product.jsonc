@@ -1,10 +1,25 @@
 {
   "store.product": {
     "children": [
+      "flex-layout.row#searchbread-pdp",
       "flex-layout.row#product-main",
       "shelf.relatedProducts",
-      "product-specification-group#table"
+      "flex-layout.row#specification"
     ]
+  },
+  "flex-layout.row#searchbread-pdp": {
+    "children": [
+      "breadcrumb"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
   },
   "flex-layout.row#product-main": {
     "props": {
@@ -17,6 +32,7 @@
       "paddingBottom": 7
     },
     "children": [
+
       "flex-layout.col#product-image",
       "flex-layout.col#right-col"
     ]
@@ -93,30 +109,26 @@
       "text": "Agregar al carrito"
     }
   },
-"vtex.store-components:product-name": {
-      "props": {
-        "showSku": true,
-        "showBrandName": true
-      }
-    },
-
-    "flex-layout.row#price-row": {
-      "children": [
-        "product-price#product-details"
-      ],
-
-      "props" :{
-        "blockClass": "price--row--pdp"
-      }
-
-    },
-
-    "product-price#product-details": {
-      "props": {
-        "showInstallments": false,
-        "showSavings": false
-      }
-    },
+  "vtex.store-components:product-name": {
+    "props": {
+      "showSku": true,
+      "showBrandName": true
+    }
+  },
+  "flex-layout.row#price-row": {
+    "children": [
+      "product-price#product-details"
+    ],
+    "props": {
+      "blockClass": "price--row--pdp"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": false,
+      "showSavings": false
+    }
+  },
   "share#default": {
     "props": {
       "social": {
@@ -169,6 +181,16 @@
       "message": "{highlightName}"
     }
   },
+
+  "flex-layout.row#specification": {
+    "children": [
+      "product-specification-group#table"
+    ],
+    "props": {
+      "blockClass": "global__specifications"
+    }
+  },
+
   "product-specification-group#table": {
     "children": [
       "product-specification-text#group",

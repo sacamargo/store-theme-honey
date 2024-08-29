@@ -8,20 +8,36 @@
             "accessCodeTitle": "Acess Code LOG-IN",
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true
+            "showPasswordVerificationIntoTooltip": true,
+            "logInButtonBehavior": "popover",
+            "accountOptionLinks": [
+                {
+                    "label": "Profile",
+                    "path": "/account#/profile",
+                    "cssClass": "accountProfile"
+                },
+                {
+                    "label": "Addresses",
+                    "path": "/account#/addresses",
+                    "cssClass": "accountAddresses"
+                },
+                {
+                    "label": "Orders",
+                    "path": "/account#/orders",
+                    "cssClass": "accountOrders"
+                },
+                {
+                    "label": "Credit cards",
+                    "path": "/account#/cards",
+                    "cssClass": "accountCard"
+                },
+                {
+                    "label": "Authentication",
+                    "path": "/account#/authentication",
+                    "cssClass": "accountAuthenticacion"
+                }
+            ]
 
-        }
-    },
-    "login#phone": {
-        "props": {
-            "blockClass": "global--login",
-            "iconLabel": "Login",
-            "optionsTitle": "Log in",
-            "emailAndPasswordTitle": "LOG-IN",
-            "accessCodeTitle": "Acess Code LOG-IN",
-            "emailPlaceholder": "e-mail",
-            "passwordPlaceholder": "password",
-            "showPasswordVerificationIntoTooltip": true
         }
     },
     "logo": {
@@ -30,7 +46,7 @@
             "height": 20,
             "mobileWidth": 90,
             "mobileHeight": 32,
-            "href": "https://santiagocamargoitg--itgloberspartnercl.myvtex.com/",            
+            "href": "/#",
             "url": "/arquivos/itg--logo.svg",
             "blockClass": [
                 "global--logo"

@@ -74,6 +74,16 @@
     display: flex;
 }
 
+.flexRowContent--global__specifications .stretchChildrenWidth {
+    flex-direction: column;
+}
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .flexRow--global__specifications :global(.vtex-store-components-3-x-container ) {
+        padding: 0;
+    }
+}
+
 .flexRowContent--highlights--row .stretchChildrenWidth {
     padding: 0;
 }
