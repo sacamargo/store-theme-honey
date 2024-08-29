@@ -52,7 +52,7 @@
 }
 
 .wrapper--text-amazing {
-  font-family: Lexend-SemiBold;
+  font-family: 'Lexend-SemiBold';
   font-size: 16px;
   padding-left: 72px;
   padding-top: 40px;
@@ -64,4 +64,16 @@
 .paragraph--text-amazing {
   width: 170px;
   height: 17px;
+}
+
+@media screen  and (min-width: 360px) {
+  .wrapper--text-amazing {
+    padding-left: 8px;
+  }
+}
+
+@media screen  and (min-width: 1024px) {
+  .wrapper--text-amazing {
+    padding-left: 0px;
+  }
 }
