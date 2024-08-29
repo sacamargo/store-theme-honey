@@ -1,0 +1,112 @@
+{
+    "store.custom#tendencias--itg": {
+        "blocks": [
+            "flex-layout.row#rich--tendencias",
+            "flex-layout.row#product-list"
+        ]
+    },
+
+    "flex-layout.row#rich--tendencias": {
+        "children": [
+            "rich-text#global--tendencias"
+        ],
+        "props": {
+            "blockClass": "flex--tendencias"
+        }
+    },
+    "rich-text#global--tendencias": {
+        "props": {
+            "blockClass": "tendencias--itg",
+            "text": "¡Tendencias de ITGlobers!",
+            "font": "t-heading-1"
+        }
+    },
+    "store.custom#coleccion--mes": {
+        "blocks": [
+            "flex-layout.row#rich--coleccion",
+            "flex-layout.row#product-list"
+        ]
+    },
+
+    "flex-layout.row#rich--coleccion": {
+        "children": [
+            "rich-text#global--coleccion"
+        ],
+        "props": {
+            "blockClass": "flex--custom-page"
+        }
+    },
+    "rich-text#global--coleccion": {
+        "props": {
+            "blockClass": "text-custom-page",
+            "text": "¡Coleccion del mes!",
+            "font": "t-heading-1"
+        }
+    },
+    "store.custom#ofertas--enero": {
+        "blocks": [
+            "flex-layout.row#rich--ofertas",
+            "flex-layout.row#product-list"
+        ]
+    },
+
+    "flex-layout.row#rich--ofertas": {
+        "children": [
+            "rich-text#global--ofertas"
+        ],
+        "props": {
+            "blockClass": "flex--custom-page"
+        }
+    },
+    "rich-text#global--ofertas": {
+        "props": {
+            "blockClass": "text-custom-page",
+            "text": "¡Ofertas de Enero!",
+            "font": "t-heading-1"
+        }
+    },
+    "store.custom#cyber--monday": {
+        "blocks": [
+            "flex-layout.row#rich--cyber",
+            "flex-layout.row#product-list"
+        ]
+    },
+
+    "flex-layout.row#rich--cyber": {
+        "children": [
+            "rich-text#global--cyber"
+        ],
+        "props": {
+            "blockClass": "flex--custom-page"
+        }
+    },
+    "rich-text#global--cyber": {
+        "props": {
+            "blockClass": "text-custom-page",
+            "text": "¡Cyber Monday!",
+            "font": "t-heading-1"
+        }
+    },
+    "store.custom#never--say-never": {
+        "blocks": [
+            "flex-layout.row#rich--never",
+            "flex-layout.row#product-list"
+        ]
+    },
+
+    "flex-layout.row#rich--never": {
+        "children": [
+            "rich-text#global--never"
+        ],
+        "props": {
+            "blockClass": "flex--custom-page"
+        }
+    },
+    "rich-text#global--never": {
+        "props": {
+            "blockClass": "text-custom-page",
+            "text": "¡Never say never!",
+            "font": "t-heading-1"
+        }
+    }
+}
