@@ -38,11 +38,6 @@
     background-repeat: no-repeat;
 }
 
-.drawerContent {
-    overflow-y: hidden;
-}
-
-
 .overlay--visible {
     opacity: initial !important;
     backdrop-filter: blur(10px);
@@ -67,9 +62,20 @@
     .drawer {
         min-width: 360px !important;
     }
+
+    .minicartWrapperContainer {
+        margin-right: 0;
+    }
+    
+
 }
 
 .closeIconButton {
     border-radius: 40px;
     background-color: #F5F4F6;
+}
+
+
+.drawerContent {
+    overflow-y: hidden;
 }
