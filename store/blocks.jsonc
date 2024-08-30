@@ -5,8 +5,8 @@
             "flex-layout.row#product-list"
         ]
     },
-
     "flex-layout.row#rich--tendencias": {
+        "title": "row with text tendencias",
         "children": [
             "rich-text#global--tendencias"
         ],
@@ -15,6 +15,7 @@
         }
     },
     "rich-text#global--tendencias": {
+        "title": "rich text coleccion mes",
         "props": {
             "blockClass": "tendencias--itg",
             "text": "¡Tendencias de ITGlobers!",
@@ -27,8 +28,8 @@
             "flex-layout.row#product-list"
         ]
     },
-
     "flex-layout.row#rich--coleccion": {
+        "title": "row with text coleccion mes",
         "children": [
             "rich-text#global--coleccion"
         ],
@@ -37,6 +38,7 @@
         }
     },
     "rich-text#global--coleccion": {
+        "title": "rich text coleccion mes",
         "props": {
             "blockClass": "text-custom-page",
             "text": "¡Coleccion del mes!",
@@ -49,8 +51,8 @@
             "flex-layout.row#product-list"
         ]
     },
-
     "flex-layout.row#rich--ofertas": {
+        "title": "row with text ofertas enero",
         "children": [
             "rich-text#global--ofertas"
         ],
@@ -59,6 +61,7 @@
         }
     },
     "rich-text#global--ofertas": {
+        "title": "rich text coleccion mes",
         "props": {
             "blockClass": "text-custom-page",
             "text": "¡Ofertas de Enero!",
@@ -71,7 +74,6 @@
             "flex-layout.row#product-list"
         ]
     },
-
     "flex-layout.row#rich--cyber": {
         "children": [
             "rich-text#global--cyber"
@@ -93,7 +95,6 @@
             "flex-layout.row#product-list"
         ]
     },
-
     "flex-layout.row#rich--never": {
         "children": [
             "rich-text#global--never"
