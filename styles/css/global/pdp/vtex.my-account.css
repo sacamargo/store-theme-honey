@@ -5,7 +5,7 @@
     padding-left: 72px;
     margin: 16px 0;
     color: #1D2734;
-    
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -42,13 +42,13 @@
 }
 
 :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li):first-child {
-    border-top-left-radius: 12px; 
-    border-top-right-radius: 12px; 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 :global(.vtex-product-specifications-1-x-specificationValue--last) :global(ul) :global(li):last-child {
-    border-bottom-left-radius: 12px; 
-    border-bottom-right-radius: 12px; 
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 @media screen and (min-width: 360px) and (max-width: 360px) {
@@ -119,4 +119,24 @@
     color: rgba(29, 39, 52, 1);
     margin-right: 8px;
 
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price--row--pdp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.containerPrice) {
+  display: flex;
+  align-items: center;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price--row--pdp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.containerPrice) :global(.sellingPrice) {
+  padding-right: 16px;
+  font-size: 24px;
+  font-family: 'Lexend-SemiBold';
+  color: #1D2734;
+}
+
+:global(.vtex-flex-layout-0-x-flexRowContent--price--row--pdp) :global(.vtex-flex-layout-0-x-stretchChildrenWidth) :global(.containerPrice) :global(.listPrice) {
+  font-size: 14px;
+  font-family: 'Lexend-Regular';
+  color: rgba(29, 39, 52, 0.4);
+  text-decoration:line-through;
+  align-items: center;
 }

@@ -117,18 +117,18 @@
   },
   "flex-layout.row#price-row": {
     "children": [
-      "product-price#product-details"
+      "price-custom"
     ],
     "props": {
       "blockClass": "price--row--pdp"
     }
   },
-  "product-price#product-details": {
-    "props": {
-      "showInstallments": false,
-      "showSavings": false
-    }
-  },
+  // "product-price#product-details": {
+  //   "props": {
+  //     "showInstallments": false,
+  //     "showSavings": false
+  //   }
+  // },
   "share#default": {
     "props": {
       "social": {
