@@ -7,6 +7,17 @@
     font-family: "Lexend-Regular";
 }
 
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label) {
+    font-size: 0px;
+}
+
+.minicartCheckoutButton :global(.vtex-button) :global(.vtex-button__label)::after {
+    content: "Finalizar tu compra";
+    text-transform: initial;
+    font-size: 14px;
+    font-family: "Lexend-Regular";
+}
+
 .minicartTitle {
     font-size: 0px;
     margin-bottom: 12px ;
