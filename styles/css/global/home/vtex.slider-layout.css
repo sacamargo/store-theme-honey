@@ -7,7 +7,7 @@
 
 .paginationDotsContainer{
     bottom: -44px;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .paginationDot {

@@ -23,7 +23,7 @@
         "props": {
             "blockClass": "menu__logo--login",
             "colJustify": "between",
-            "colSizing": "equal",
+            "colSizing": "auto",
             "fullWidth": true
         }
     }
