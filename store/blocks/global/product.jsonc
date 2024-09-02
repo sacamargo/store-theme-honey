@@ -32,7 +32,6 @@
       "paddingBottom": 7
     },
     "children": [
-
       "flex-layout.col#product-image",
       "flex-layout.col#right-col"
     ]
@@ -119,8 +118,16 @@
     "children": [
       "price-custom"
     ],
-    "props": {
+
+    "props" :{
       "blockClass": "price--row--pdp"
+    }
+
+  },
+
+  "price-custom": {
+    "props": {
+      "textPrice": "Now"
     }
   },
   // "product-price#product-details": {
@@ -181,7 +188,6 @@
       "message": "{highlightName}"
     }
   },
-
   "flex-layout.row#specification": {
     "children": [
       "product-specification-group#table"
@@ -190,7 +196,6 @@
       "blockClass": "global__specifications"
     }
   },
-
   "product-specification-group#table": {
     "children": [
       "product-specification-text#group",
